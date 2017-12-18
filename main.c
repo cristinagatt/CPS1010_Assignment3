@@ -26,3 +26,38 @@ int main() {
     scanf("%f",&num2);
 
     }
+
+
+    switch(menu){
+        case 'a': add(num1,num2);
+            break;
+        case 's': subtract(num1,num2);
+            break;
+        case 'm' :multiplication(num1,num2);
+            break;
+        case 'd':division(num1,num2);
+            break;
+    }
+ 
+ 
+ 
+    return  0;
+ 
+}
+
+
+int add(int num1, int num2){
+ 
+    int addition = num1 + num2;
+    printf("Addition is %d ",addition);
+    return addition;
+ 
+}
+ 
+int subtract(int num1,int  num2){
+ 
+    int subtraction = num1 - num2;
+    printf("Subtraction is %df ",subtraction);
+    return subtraction;
+ 
+}
