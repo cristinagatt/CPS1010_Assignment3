@@ -1,4 +1,4 @@
-#include <stdio.l>
+#include <stdio.h>
 float subtract(float num1,float num2);
 float add(float num1,float num2);
 float multiplication(float num1, float num2);
@@ -39,7 +39,7 @@ int main(){
             break;
     }
  
- 
+}
  
   
 }
@@ -59,4 +59,6 @@ float subtract(int num1,int  num2){
     printf("Subtraction is %df ",subtraction);
     return subtract;
  
+}
+}
 }
