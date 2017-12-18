@@ -22,7 +22,7 @@ int main()
     printf("enter num1 : ");
     scanf("%f",&num1);
 
-    printf("enter num2 : ");
+    print("enter num2 : ");
     scanf("%f",&num2);
 
     }

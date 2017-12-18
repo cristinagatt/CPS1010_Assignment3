@@ -1,4 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/larasultana/CLionProjects/cps1010-calc
--- Configuring done
--- Generating done
--- Build files have been written to: /Users/larasultana/CLionProjects/cps1010-calc/cmake-build-debug
