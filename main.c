@@ -5,7 +5,7 @@ float multiplication(float num1, float num2);
 float division(float num1, float num2);
 
 
-int main() {
+int main() 
 
     float num1;
     float num2;
