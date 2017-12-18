@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.l>
 float subtract(float num1,float num2);
 float add(float num1,float num2);
 float multiplication(float num1, float num2);
@@ -25,7 +25,6 @@ int main(){
     print("enter num2 : ");
     scanf("%f",&num2);
 
-<<<<<<< HEAD
 }
 
 
@@ -48,9 +47,9 @@ break;
 
 
     switch(menu){
-        case 'a': add(num1,num2);
+        case 'a': addition(num1,num2);
             break;
-        case 's': subtract(num1,num2);
+        case 's': subtraction(num1,num2);
             break;
         case 'm' :multiplication(num1,num2);
             break;
