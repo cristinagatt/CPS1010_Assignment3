@@ -67,33 +67,6 @@ break;
 float add(int num1, int num2){
 <<<<<<< HEAD
 
-    int addition = num1 + num2;
-    printf("Addition is %d ",addition);
-    return add;
-
+    
 }
 
-float subtract(int num1,int  num2){
-
-    int subtraction = num1 - num2;
-    printf("Subtraction is %df ",subtraction);
-    return subtract;
-
-=======
- 
-    int addition = num1 + num2;
-    printf("Addition is %d ",addition);
-    return add;
- 
-}
- 
-float subtract(int num1,int  num2){
- 
-    int subtraction = num1 - num2;
-    printf("Subtraction is %df ",subtraction);
-    return subtract;
- 
->>>>>>> b8a9c2fbde3f3d236340ae7f6a3827bb2f37cddb
-}
-}
-}
