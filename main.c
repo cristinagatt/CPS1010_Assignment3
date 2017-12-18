@@ -46,7 +46,7 @@ int main() {
 }
 
 
-int add(int num1, int num2){
+float add(int num1, int num2){
  
     int addition = num1 + num2;
     printf("Addition is %d ",addition);
@@ -54,7 +54,7 @@ int add(int num1, int num2){
  
 }
  
-int subtract(int num1,int  num2){
+float subtract(int num1,int  num2){
  
     int subtraction = num1 - num2;
     printf("Subtraction is %df ",subtraction);
