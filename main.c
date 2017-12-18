@@ -5,7 +5,7 @@ float multiplication(float num1, float num2);
 float division(float num1, float num2);
 
 
-int main() 
+int main(){
 
     float num1;
     float num2;
@@ -50,7 +50,7 @@ float add(int num1, int num2){
  
     int addition = num1 + num2;
     printf("Addition is %d ",addition);
-    return addition;
+    return add;
  
 }
  
@@ -58,6 +58,6 @@ float subtract(int num1,int  num2){
  
     int subtraction = num1 - num2;
     printf("Subtraction is %df ",subtraction);
-    return subtraction;
+    return subtract;
  
 }
