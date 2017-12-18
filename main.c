@@ -5,7 +5,7 @@ float multiplication(float num1, float num2);
 float division(float num1, float num2);
 
 
-int main() {
+int main(){
 
     float num1;
     float num2;
@@ -22,7 +22,43 @@ int main() {
     printf("enter num1 : ");
     scanf("%f",&num1);
 
-    printf("enter num2 : ");
+    print("enter num2 : ");
     scanf("%f",&num2);
 
-    }
+}
+
+
+switch(menu){
+case 'a': add(num1,num2);
+break;
+case 's': subtract(num1,num2);
+break;
+case 'm' :multiplication(num1,num2);
+break;
+case 'd':division(num1,num2);
+break;
+}
+
+}
+
+
+}
+
+
+float add(int num1, int num2){
+
+    int addition = num1 + num2;
+    printf("Addition is %d ",addition);
+    return add;
+
+}
+
+float subtract(int num1,int  num2){
+
+    int subtraction = num1 - num2;
+    printf("Subtraction is %df ",subtraction);
+    return subtract;
+
+}
+}
+}
