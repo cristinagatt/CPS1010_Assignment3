@@ -25,6 +25,7 @@ int main(){
     print("enter num2 : ");
     scanf("%f",&num2);
 
+<<<<<<< HEAD
 }
 
 
@@ -42,10 +43,30 @@ break;
 }
 
 
+=======
+    }
+
+
+    switch(menu){
+        case 'a': add(num1,num2);
+            break;
+        case 's': subtract(num1,num2);
+            break;
+        case 'm' :multiplication(num1,num2);
+            break;
+        case 'd':division(num1,num2);
+            break;
+    }
+ 
+}
+ 
+  
+>>>>>>> b8a9c2fbde3f3d236340ae7f6a3827bb2f37cddb
 }
 
 
 float add(int num1, int num2){
+<<<<<<< HEAD
 
     int addition = num1 + num2;
     printf("Addition is %d ",addition);
@@ -59,6 +80,21 @@ float subtract(int num1,int  num2){
     printf("Subtraction is %df ",subtraction);
     return subtract;
 
+=======
+ 
+    int addition = num1 + num2;
+    printf("Addition is %d ",addition);
+    return add;
+ 
+}
+ 
+float subtract(int num1,int  num2){
+ 
+    int subtraction = num1 - num2;
+    printf("Subtraction is %df ",subtraction);
+    return subtract;
+ 
+>>>>>>> b8a9c2fbde3f3d236340ae7f6a3827bb2f37cddb
 }
 }
 }
