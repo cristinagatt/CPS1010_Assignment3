@@ -7,8 +7,8 @@ int division(int num1, int num2);
  
 int main() {
  
-    float num1;
-    float num2;
+    int num1;
+    int num2;
     char menu;
  
  
