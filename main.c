@@ -47,7 +47,7 @@ int main() {
  
 float add(float num1, float num2){
  
-    float addtion = num1 + num2;
+    float addition = num1 + num2;
     printf("Addition is %.2f",addition);
     return addition;
  
