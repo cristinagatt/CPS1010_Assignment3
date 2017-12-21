@@ -1,6 +1,6 @@
 #include <stdio.h>
 float subtract(float num1,float num2);
-float add(float num1,float num2);
+int add(int num1,int num2);
 float multiplication(float num1, float num2);
 float division(float num1, float num2);
  
@@ -47,7 +47,7 @@ int main() {
  
 int add(float num1, float num2){
  
-    int adtion = num1 + num2;
+    int addtion = num1 + num2;
     printf("Addition is %d",addition);
     return addition;
  
