@@ -9,7 +9,7 @@ int main() {
  
     int num1;
     int num2;
-    char menu
+    char menu;
  
  
     printf("Enter 'a' for Addition\n");
@@ -20,10 +20,10 @@ int main() {
     scanf( "%c", &menu );
  
     printf("enter num1 : ");
-    scanf("%f",&num1);
+    scanf("%d",&num1);
  
     printf("enter num2 : ");
-    scanf("%f",&num2);
+    scanf("%d",&num2);
  
  
  
