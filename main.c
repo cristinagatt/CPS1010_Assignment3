@@ -1,8 +1,8 @@
 #include <stdio.h>
-int subtract(float num1,float num2);
-int add(float num1,float num2);
-float multiplication(float num1, float num2);
-float division(float num1, float num2);
+int subtract(int num1,int num2);
+int add(int num1,int num2);
+int multiplication(int num1, int num2);
+int division(int num1, int num2);
  
  
 int main() {
@@ -45,35 +45,35 @@ int main() {
  
 }
  
-float add(float num1, float num2){
+int add(int num1, int num2){
  
-    float addition = num1 + num2;
-    printf("Addition is %.2f",addition);
+    int addition = num1 + num2;
+    printf("Addition is %d",addition);
     return addition;
  
 }
  
-float subtract(float num1,float num2){
+int subtract(int num1,int num2){
  
-    float subtraction = num1 - num2;
-    printf("Subtraction is %.2f ",subtraction);
+    int subtraction = num1 - num2;
+    printf("Subtraction is %d ",subtraction);
     return subtraction;
  
 }
  
  
-float multiplication(float num1, float num2){
+int multiplication(int num1, int num2){
  
     float multiplication = num1*num2;
-    printf("Multiplication is %.2f ",multiplication);
+    printf("Multiplication is %d ",multiplication);
     return multiplication;
  
 }
  
-float division(float num1, float num2){
+int division(int num1, int num2){
  
-    float division = num1/num2;
-    printf("Division is %.2f ",division);
+    int division = num1/num2;
+    printf("Division is %d ",division);
     return division;
  
 }
