@@ -45,10 +45,10 @@ int main() {
  
 }
  
-int add(int num1, int num2){
+float add(float num1, float num2){
  
-    int addtion = num1 + num2;
-    printf("Addition is %d",addition);
+    float addtion = num1 + num2;
+    printf("Addition is %.2f",addition);
     return addition;
  
 }
