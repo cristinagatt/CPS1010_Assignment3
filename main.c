@@ -9,7 +9,7 @@ int main() {
  
     int num1;
     int num2;
-    char menu;
+    char menu
  
  
     printf("Enter 'a' for Addition\n");
