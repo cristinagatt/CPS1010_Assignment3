@@ -64,7 +64,7 @@ int subtract(int num1,int num2){
  
 int multiplication(int num1, int num2){
  
-    float multiplication = num1*num2;
+    int multiplication = num1*num2;
     printf("Multiplication is %d ",multiplication);
     return multiplication;
  
